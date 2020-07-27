@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="247" height="47" viewBox="0 0 247 47">
+  <g id="Group_10" data-name="Group 10" transform="translate(-1438 -925)">
+    <rect id="Rectangle_81" data-name="Rectangle 81" width="247" height="47" transform="translate(1438 925)" fill="#006729"/>
+    <rect id="Rectangle_82" data-name="Rectangle 82" width="52" height="47" transform="translate(1633 925)" fill="#79b530"/>
+    <text id="Visitar_FAQ" data-name="Visitar FAQ" transform="translate(1579 957)" fill="#fff" font-size="20" font-family="Nunito-Regular, Nunito"><tspan x="-101.56" y="0">Visitar FAQ</tspan></text>
+    <path id="Icon_open-external-link" data-name="Icon open-external-link" d="M0,0V20H20V15H17.5v2.5H2.5V2.5H5V0ZM10,0l3.75,3.75L7.5,10,10,12.5l6.25-6.25L20,10V0Z" transform="translate(1649 937.512)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,18 +1,21 @@
 body {
-    font-family: "Nunito", sans-serif;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+}
+
+/* building tool */
+.guide {
+    border: 1px  solid red;
 }
 
 .header {
     background: #006729;
 }
 
-.guide {
-        border: 1px  solid red;
+.text-green{
+    color: #3A6731
 }
 
-.text-green{
-   color: #3A6731
-}
 .greyness{
     color: #707070
 }
@@ -21,29 +24,13 @@ body {
     border:1px solid #707070;
 }
 
-.shadow-line{
-    border
-}
 .hero {
     height: 150px;
-    /* background-image: url('../Imagenes curso platzi/images/hero.jpg'); */
-    /* background-size: 500px 300px; */
-    /* background-repeat: no-repeat; */
-    /* background-position-x: right; */
     display: flex;
 }
 
 .header-text {
     font-size: small;
-}
-
-.rounded-card {
-    border-radius: 30px;
-}
-
-hr {
-    border:1px solid #971f1f;
-    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));  */
 }
 
 .sidebar {
@@ -61,6 +48,64 @@ input {
     width: 30%;
 }
 
-#siniestronr {
+#siniestro-nr {
     text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.btn-hdi{
+    background-color: #006729;
+}
+
+.btn-consultar {
+    color: white;
+    background-color: #006729;
+}
+
+btn-hdi2 {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    background: #006729;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    /* position: relative; */
+    text-align: center;
+    width: calc(100% - 50px);
+    display: block;
+    text-decoration: none;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+.btn-primary1 {
+    background-color: #006729;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 40px;
+}
+span {
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+
+.btn-1 {
+    background-color: #79B530;
+    font-size: 20px;
+    padding: 15px 22px;
+    }
+
+.down-box{
+    height: 300px;
+}
+
+.up-box {
+    height: 400px;
 }

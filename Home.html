@@ -14,7 +14,7 @@
 
 <body>
     <!-- HEADER -->
-    <header class="container-fluid border-bottom pb-0">
+    <header class="container-fluid border-bottom pb-0 shadow bg-white rounded">
         <div class="row align-items-center">
             <div class="col-1"><img class="" src="Img/logo.png" alt="Logo de HDI" /></div>
             <div class="col-5 text-green">Bienvenido a la <strong> Zona de Clientes</strong></div>
@@ -35,53 +35,49 @@
     <!-- END HEADER -->
     <div class="container-fluid">
         <div class="row p-0">
-
             <!-- LEFT MENU -->
-            <div class="col-2 p-0 border-right px-5 sidebar">
-                <nav class="nav">
-                    <ul class="nav flex-column">
-                        <li class="nav-item py-4">
-                            <a class="nav-link" href="#"><strong>Inicio</strong></a>
+            <div class="col-2 p-0 border-right sidebar">
+                <div>
+                    <ul class=" nav flex-column pt-2 pr-0 mr-0">
+                        <li class="nav-item py-4 pl-3">
+                            <a class="nav-link title text-dark bg-succeed pl-5" href="#"><strong>Inicio</strong></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-muted text-light" href="#">Denunciar siniestro</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-muted" href="#">Mis Seguros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-muted" href="#">Mis pagos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-muted" href="#">Historial de siniestro</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-muted" href="#">Facturas electrónicas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-muted" href="#">Cheques disponibles</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-muted" href="#">Recepcionar vehículo</a>
-                        </li>
-                        <li class="nav-item border-bottom pb-5">
-                            <a class="nav-link text-muted" href="#">Avance de siniestro</a>
+                        <li class="nav-item pr-0 mr-0">
+                            <a class="nav-link btn-primary1 text-light mr-0 pr-0" href=" #"><span
+                                    class="align-middle">Denunciar
+                                    siniestro</span>
+                                <span class="btn-1 ml-4 mr-0"><img src="Icons/Icon ionic-ios-arrow-forward.svg"
+                                        alt=""></span></a>
                         </li>
                     </ul>
-                    <ul class="nav flex-column py-5">
-                        <li class="nav-item">
-                            <a class="nav-link text-muted" href="#">Mis datos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-muted" href="#">Cambio de contraseña</a>
-                        </li>
-                        <li>
-                            <form action="">
-                                <button class="btn btn-light mt-5 text-center">Cerrar sesion</button>
-                            </form>
-                        </li>
-                    </ul>
-                </nav>
+                </div>
+                <div>
+                    <nav class="nav pl-5">
+                        <ul class=" nav flex-column pt-5">
+                            <li class="nav-item">
+                                <a class="nav-link text-muted" href="#">Mis Seguros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-muted" href="#">Mis pagos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-muted" href="#">Historial de siniestro</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-muted" href="#">Facturas electrónicas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-muted" href="#">Cheques disponibles</a>
+                            </li>
+                            <li class="nav-item  border-bottom pb-5">
+                                <a class="nav-link text-muted" href="#">Recepcionar vehículo</a>
+                            </li>
+                            <li class="nav-item py-5"></li>
+                            <a class="nav-link text-muted" href="#">Mi Perfil</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
             <!-- END LEFT MENU -->
             <!-- MAIN -->
@@ -90,7 +86,7 @@
                 <section class="container-fluid header">
                     <div class="row align-items-center">
                         <div class="col-sm-6 text-light">
-                            <p>
+                            <p class="title">
                                 Hola Alexander!
                             </p>
                             <p class="header-text">Actualmente tienes 1 avance en un siniestro, 0 cheques
@@ -111,11 +107,11 @@
                     <div class="row align-items-center p-5">
                         <!-- SECTION - MIS POLIZAS -->
                         <section class="col-6">
-                            <div class="card container border-secondary">
+                            <div class="card container border-secondary up-box">
                                 <div class="row justify-content-center">
                                     <div class="col-10">
                                         <div class="card-body">
-                                            <h5 class="card-title">Mis Polizas</h5>
+                                            <h5 class="card-titl title">Mis Polizas</h5>
                                             <p class="card-text"></p>
                                         </div>
                                         <table class="table">
@@ -154,36 +150,33 @@
                         <!-- END SECTION - MIS POLIZAS -->
                         <!-- SECTION - MIS PAGOS -->
                         <section class="col-6">
-                            <div class="card container border-secondary">
+                            <div class="card container border-secondary up-box">
                                 <div class="row justify-content-center">
                                     <div class="col-10">
                                         <div class="card-body">
-                                            <h5 class="card-title">Mis Pagos</h5>
+                                            <h5 class="card-title title">Mis Pagos</h5>
                                         </div>
                                         <table class="table">
                                             <tbody>
                                                 <tr>
                                                     <td class="border-0">VEHÍCULOS MOTORIZADOS</td>
                                                     <td class="border-0"></td>
-                                                    <td class="border-0 text-right"><button
-                                                            class="btn-outline-secondary">Pagado/ al día <img
-                                                                src="Icons/Icon open-magnifying-glass.svg"></button>
+                                                    <td class="border-0 text-right"><button class="btn p-0 m-0"><img
+                                                                src="Icons/btn-pagado.svg"></button>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>SOAP-ACCIDENTES PERSONALES</td>
                                                     <td></td>
-                                                    <td class="text-right"><button class="btn-outline-secondary">Pagado/
-                                                            al día <img
-                                                                src="Icons/Icon open-magnifying-glass.svg"></button>
+                                                    <td class="border-0 text-right"><button class="btn p-0 m-0"><img
+                                                                src="Icons/btn-pagado.svg"></button>
                                                     </td>
                                                 </tr>
                                                 <tr">
                                                     <td>VEHÍCULOS MOTORIZADOS HDI</td>
                                                     <td></td>
-                                                    <td class="text-right"><button class="btn-outline-secondary">Pagado/
-                                                            al día <img
-                                                                src="Icons/Icon open-magnifying-glass.svg"></button>
+                                                    <td class="border-0 text-right"><button class="btn p-0 m-0"><img
+                                                                src="Icons/btn-pagado.svg"></button>
                                                     </td>
                                                     </tr>
                                             </tbody>
@@ -204,11 +197,11 @@
                         <div class="row align-items-center px-4 pb-5">
                             <!-- SECTION - MIS POLIZAS -->
                             <section class="col-4">
-                                <div class="card container  border-secondary">
+                                <div class="card container  border-secondary down-box">
                                     <div class="row justify-content-center">
                                         <div class="col-11">
                                             <div class="card-body">
-                                                <h5 class="card-title">Mi historial de siniestros</h5>
+                                                <h5 class="card-title title">Mi historial de siniestros</h5>
                                             </div>
                                             <form action="">
                                                 <table class="mb-5">
@@ -218,7 +211,7 @@
                                                                     id="patente" placeholder="Patente"></td>
                                                             <td class="border-0"></td>
                                                             <td class="border-0 text-right"><button
-                                                                    class="btn btn-outline-dark my-2">Consultar</button>
+                                                                    class="btn btn-outline-dark my-2 rounded-0 btn-consultar">Consultar</button>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -226,7 +219,7 @@
                                                                     placeholder="Siniestro"></td>
                                                             <td></td>
                                                             <td class="text-right"><button
-                                                                    class="btn btn-outline-dark my-2">Consultar</button>
+                                                                    class="btn btn-outline-dark my-2 rounded-0 btn-consultar">Consultar</button>
                                                             </td>
                                                         </tr>
                                                         <tr">
@@ -237,7 +230,7 @@
                                                                     placeholder="-CERT"></td>
                                                             <td></td>
                                                             <td class="text-right"><button
-                                                                    class="btn btn-outline-dark my-2">Consultar</button>
+                                                                    class="btn btn-outline-dark my-2 rounded-0 btn-consultar">Consultar</button>
                                                             </td>
                                                             </tr>
                                                     </tbody>
@@ -251,18 +244,20 @@
                             <!-- END SECTION - MI HISTORIAL DE SINIESTROS->
                         <!-- SECTION - AVANCES DE SINIESTRO-->
                             <section class="col-4">
-                                <div class="card container  border-secondary">
+                                <div class="card container  border-secondary down-box">
                                     <div class="row justify-content-center pb-5">
                                         <div class="col-10">
                                             <div class="card-body">
-                                                <h5 class="card-title">Avances de siniestro</h5>
+                                                <h5 class="card-title title">Avances de siniestro</h5>
                                             </div>
-                                            <ul class="list-group list-group-flush pt-2">
-                                                <input id="siniestronr" type="number" placeholder="Número de siniestro">
+                                            <ul class=" list-group list-group-flush pt-2">
+                                                <input id="siniestro-nr" type="number"
+                                                    placeholder="Número de siniestro">
                                                 <li class="list-group-item text-center">Ejemplo: 123456789</li>
                                             </ul>
                                             <div class="card-body text-center pt-4">
-                                                <button class="btn btn-outline-dark">Consultar</button>
+                                                <button
+                                                    class="btn btn-outline-dark rounded-0 btn-consultar">Consultar</button>
                                             </div>
                                         </div>
                                     </div>
@@ -271,11 +266,11 @@
                             <!-- END SECTION - AVANCES DE SINIESTRO-->
                             <!-- SECTION - TIENES DUDAS?-->
                             <section class="col-4">
-                                <div class="card container rounded-card">
+                                <div class="card container border-secondary down-box">
                                     <div class="row justify-content-center pb-5">
                                         <div class="col-10">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tienes dudas?</h5>
+                                                <h5 class="card-title title">Tienes dudas?</h5>
                                                 <p class="card-text pt-4">
                                                     Lorem ipsum dolor sit amet, consectetur ad CHAT ipiscing elit,
                                                     sed
@@ -283,9 +278,7 @@
                                                 </p>
                                             </div>
                                             <div class="card-body text-center pt-3">
-                                                <button class="btn btn-outline-dark">
-                                                    Visitar FAQ
-                                                </button>
+                                                <button class="btn p-0 m-0"><img src="Icons/btn-faq.svg"></button>
                                             </div>
                                         </div>
                                     </div>
@@ -293,15 +286,15 @@
                             </section>
                             <!-- END SECTION - TIENES DUDAS?-->
                         </div>
-
                     </div>
-                    <!-- END MAIN -->
-                    <!-- FOOTER - CHATBOT -->
-                    <!-- END FOOTER - CHATBOT -->
-                    <!-- END MAIN -->
                 </div>
+                <!-- END MAIN -->
+                <!-- FOOTER - CHATBOT -->
+                <!-- END FOOTER - CHATBOT -->
+                <!-- END MAIN -->
             </div>
         </div>
+    </div>
     </div>
     <!-- STACK -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
