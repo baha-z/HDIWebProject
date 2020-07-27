@@ -14,7 +14,7 @@
 
 <body>
     <!-- HEADER -->
-    <header class="container-fluid border-bottom pb-0 shadow bg-white rounded">
+    <header class="container-fluid border-bottom py-0 shadow bg-white rounded">
         <div class="row align-items-center">
             <div class="col-1"><img class="" src="Img/logo.png" alt="Logo de HDI" /></div>
             <div class="col-5 text-green">Bienvenido a la <strong> Zona de Clientes</strong></div>
@@ -72,7 +72,7 @@
                             <li class="nav-item  border-bottom pb-5">
                                 <a class="nav-link text-muted" href="#">Recepcionar vehículo</a>
                             </li>
-                            <li class="nav-item py-5"></li>
+                            <li class="nav-item py-2"></li>
                             <a class="nav-link text-muted" href="#">Mi Perfil</a>
                             </li>
                         </ul>
@@ -104,13 +104,13 @@
 
 
                 <div class="container-fluid">
-                    <div class="row align-items-center p-5">
+                    <div class="row align-items-center p-4">
                         <!-- SECTION - MIS POLIZAS -->
                         <section class="col-6">
                             <div class="card container border-secondary up-box">
                                 <div class="row justify-content-center">
                                     <div class="col-10">
-                                        <div class="card-body">
+                                        <div class="card-body pr-4">
                                             <h5 class="card-titl title">Mis Polizas</h5>
                                             <p class="card-text"></p>
                                         </div>
@@ -139,7 +139,7 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <div class="card-body text-center">
+                                        <div class="card-body text-center pr-1">
                                             <a href="#" class="card-link text-secondary">Ver detalles de todas mis
                                                 polizas vigentes</a>
                                         </div>
@@ -194,7 +194,7 @@
                     <!-- SECTION - MI HISTORIAL DE SINIESTROS-->
 
                     <div class="container-fluid">
-                        <div class="row align-items-center px-4 pb-5">
+                        <div class="row align-items-center px-3 pb-4">
                             <!-- SECTION - MIS POLIZAS -->
                             <section class="col-4">
                                 <div class="card container  border-secondary down-box">
@@ -215,7 +215,7 @@
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td><input type="number" name="siniestro" id="siniestro"
+                                                            <td><input type="text" name="siniestro" id="siniestro"
                                                                     placeholder="Siniestro"></td>
                                                             <td></td>
                                                             <td class="text-right"><button
@@ -223,10 +223,10 @@
                                                             </td>
                                                         </tr>
                                                         <tr">
-                                                            <td><input type="number" name="ramo" id="ramo"
-                                                                    placeholder="Ramo"> <input type="number"
+                                                            <td><input type="text" name="ramo" id="ramo"
+                                                                    placeholder="Ramo"> <input type="text"
                                                                     name="polizas" id="poliza" placeholder="-Poliza">
-                                                                <input type="number" name="cert" id="cert"
+                                                                <input type="text" name="cert" id="cert"
                                                                     placeholder="-CERT"></td>
                                                             <td></td>
                                                             <td class="text-right"><button
@@ -251,9 +251,10 @@
                                                 <h5 class="card-title title">Avances de siniestro</h5>
                                             </div>
                                             <ul class=" list-group list-group-flush pt-2">
-                                                <input id="siniestro-nr" type="number"
-                                                    placeholder="Número de siniestro">
-                                                <li class="list-group-item text-center">Ejemplo: 123456789</li>
+                                                <input id="siniestro-nr" type="text" placeholder="Número de siniestro">
+                                                <li class="list-group-item text-center text-muted smallf">Ejemplo:
+                                                    123456789
+                                                </li>
                                             </ul>
                                             <div class="card-body text-center pt-4">
                                                 <button

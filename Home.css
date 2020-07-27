@@ -107,5 +107,9 @@ span {
 }
 
 .up-box {
-    height: 400px;
+    height: 350px;
+}
+
+.smallf {
+    font-size: 12px;
 }
