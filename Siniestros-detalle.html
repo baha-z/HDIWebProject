@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDI - Clientes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Index.css">
+    <link rel="stylesheet" href="CSS/Table.css">
+
+    <script src="https://kit.fontawesome.com/74fbde4dd4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="d-none d-lg-block container-fluid border-bottom py-0 shadow bg-white rounded">
+        <div class="row align-items-center">
+            <div class="col-1"><img class="" src="Img/logo.jpg" alt="Logo de HDI" /></div>
+            <div class=" col-5 text-green">Bienvenido a la <strong> Zona de Clientes</strong></div>
+            <div class="col-4 header-text text-right greyness pt-3">
+                <p class="pb-0 mb-0">Servicio al Cliente 600 600 6010</p>
+                <p class="pt-0">Desde celulares: *6010</p>
+            </div>
+            <div class="col-1">
+                <img class="" src="Icons/Icon feather-phone.svg" alt="icon phone">
+            </div>
+            <div class="col-1">
+                <form class="form">
+                    <button class="btn greyness greyness-button m-0" type="submit">Contactar</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <!-- CONTAINER MAIN-->
+    <div class="container-fluid p-0 m-0">
+        <div class="row p-0">
+            <div class="col-12">
+                <div class="container-fluid">
+                    <div class="row p-0">
+                        <!-- LEFT MENU -->
+                        <div class="col-12 pr-0 d-flex justify-content-between d-lg-none">
+                            <div class="pl-0"><img class="" src="Img/logo.jpg" alt="Logo de HDI" />
+                            </div>
+                            <div class="align-items-end mr-3">
+                                <button class="btn btn-light btnToggle">
+                                    <a class="navbar-toggler-icon"><i class="fas fa-bars"
+                                            style="color:#6C6F70; font-size:28px;"></i></a>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="wrapper d-none d-lg-block col-2 p-0 border-right sidebar">
+                            <div class="flex-column flex-wrap" id="navbarSupportedContent">
+                                <ul class="nav flex-wrap flex-column pt-1 pr-0 mr-0">
+                                    <li class="nav-item py-4 pl-xl-5">
+                                        <a class="nav-link title2 text-dark bg-succeed pl-3"
+                                            href="#"><strong>Inicio</strong></a>
+                                    </li>
+                                    <li class="nav-item pr-0 mr-0">
+                                        <a class="btnLogin text-light title pr-2 pr-lg-5" href="#"><span
+                                                class=" pl-xl-5">Denunciar
+                                                siniestro</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class=" nav flex-column pt-3 pl-xl-5 pr-0 mr-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-muted" href="#">Mis Seguros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-muted" href="#">Mis pagos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-muted" href="#">Historial de siniestro</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-muted" href="#">Facturas electrónicas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-muted" href="#">Cheques disponibles</a>
+                                    </li>
+                                    <li class="nav-item  border-bottom pb-4">
+                                        <a class="nav-link text-muted" href="#">Recepcionar vehículo</a>
+                                    </li>
+                                    <li class="nav-item py-3"></li>
+                                    <a class="nav-link text-muted" href="#">Mi Perfil</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- END LEFT MENU -->
+
+                        <div class="col-12 col-lg-10 pb-5 order-2">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="d-none d-lg-flex flex-wrap card-tex justify-content-between pl-3 pt-5">
+                                        <div>
+                                            <h4>Siniestros</h4>
+                                        </div>
+                                    </div>
+                                    <section class="col-12 py-4 h-100">
+                                        <div class="card container border-secondary">
+                                            <div class="row justify-content-center">
+                                                <div class="col-12 px-4 col-md-9 pt-1">
+                                                    <div class="card-body my-0 pl-0">
+                                                        <h5 class="card-title title">Mis historial de
+                                                            siniestros</h5>
+                                                        <p class="card-text"></p>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-wrap card-text align-items-baseline justify-content-between pl-1 pb-3">
+                                                        <div class="prueba"><input type="text" placeholder="Patente">
+                                                        </div>
+                                                        <div class="mt-3"><button
+                                                                class="btn btn-sm px-5 py-2 btn-consultar rounded-0"
+                                                                type="submit">Consultar</button>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-wrap card-text align-items-baseline justify-content-between pl-1 pb-3">
+                                                        <div class="prueba"><input type="text" placeholder="Patente">
+                                                        </div>
+                                                        <div class="mt-3"><button
+                                                                class="btn btn-sm px-5 py-2 btn-consultar rounded-0"
+                                                                type="submit">Consultar</button>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-wrap card-text align-items-baseline justify-content-between pl-1 pb-3">
+                                                        <div class="prueba"><input type="text" placeholder="Ramo"
+                                                                size="4">
+                                                            <input type="text" placeholder="-Póliza" size="4">
+                                                            <input type="text" placeholder="-CERTF" size="4">
+                                                        </div>
+                                                        <div class="mt-3"><button
+                                                                class="btn btn-sm px-5 py-2 btn-consultar rounded-0"
+                                                                type="submit">Consultar</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <div class="d-flex px-4 flex-wrap card-tex justify-content-between pl-lg-3 pt-lg-5">
+                                        <div class="d-none d-lg-flex">
+                                            <h4>Búsqueda referente a la patente: JVDP23. Total de registros encontrados:
+                                                4 </h4>
+                                        </div>
+                                        <div class="mediumf d-lg-none">
+                                            <p class="pb-2">Búsqueda referente a la patente: JVDP23. </p>
+                                            <p>Total de registros encontrados:
+                                                4 </p>
+                                        </div>
+                                    </div>
+                                    <section class="col-12 py-4 h-100">
+                                        <div class="card container border-secondary">
+                                            <div class="row justify-content-center">
+                                                <div class="col-12 col-md-12 pt-3 pb-4">
+                                                    <table>
+                                                        <thead>
+                                                            <tr class="table100-head">
+                                                                <th class="column1">Tipo de documento</th>
+                                                                <th class="column2">Documento</th>
+                                                                <th class="column3">Fecha de creación</th>
+                                                                <th class="column4"></th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="column1">Póliza
+                                                                </td>
+                                                                <td class="column2">74-1111-152356-0</td>
+                                                                <td class="column3">10/20/2020, 14:22
+                                                                </td>
+                                                                <td class="column4"><button
+                                                                        class="btn rounded-pill btn-info btn-sm btnInprocess px-3">EN
+                                                                        PROCESO, VER
+                                                                        ESTADO</button></td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="column1">Póliza
+                                                                </td>
+                                                                <td class="column2">74-1111-152356-0</td>
+                                                                <td class="column3">10/20/2020, 14:22
+                                                                </td>
+                                                                <td class="column4"><button
+                                                                        class="btn rounded-pill btn-info btn-sm btnVerBitacora px-3">Ver
+                                                                        bítacora</button></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="column1">Póliza
+                                                                </td>
+                                                                <td class="column2">74-1111-152356-0</td>
+                                                                <td class="column3">10/20/2020, 14:22
+                                                                </td>
+                                                                <td class="column4"><button
+                                                                        class="btn rounded-pill btn-info btn-sm btnVerBitacora px-3">Ver
+                                                                        bítacora</button></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="column1">Póliza
+                                                                </td>
+                                                                <td class="column2">74-1111-152356-0</td>
+                                                                <td class="column3">10/20/2020, 14:22
+                                                                </td>
+                                                                <td class="column4"><button
+                                                                        class="btn rounded-pill btn-info btn-sm btnVerBitacora px-3">Ver
+                                                                        bítacora</button></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>

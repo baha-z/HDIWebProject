@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDI - Clientes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Index.css">
+    <link rel="stylesheet" href="CSS/mainhdi.css">
+
+    <script src="https://kit.fontawesome.com/74fbde4dd4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="d-none d-lg-block container-fluid border-bottom py-0 shadow bg-white rounded">
+        <div class="row align-items-center">
+            <div class="col-1"><img class="" src="Img/logo.jpg" alt="Logo de HDI" /></div>
+            <div class=" col-5 text-green">Bienvenido a la <strong> Zona de Clientes</strong></div>
+            <div class="col-4 header-text text-right greyness pt-3">
+                <p class="pb-0 mb-0">Servicio al Cliente 600 600 6010</p>
+                <p class="pt-0">Desde celulares: *6010</p>
+            </div>
+            <div class="col-1">
+                <img class="" src="Icons/Icon feather-phone.svg" alt="icon phone">
+            </div>
+            <div class="col-1">
+                <form class="form">
+                    <button class="btn greyness greyness-button m-0" type="submit">Contactar</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <!-- CONTAINER MAIN-->
+    <div class="container-fluid p-0 m-0">
+        <div class="row p-0">
+            <div class="col-12">
+                <div class="container-fluid">
+                    <div class="row p-0">
+                        <!-- LEFT MENU -->
+                        <div class="col-12 pr-0 d-flex justify-content-between d-lg-none">
+                            <div class="pl-0"><img class="" src="Img/logo.jpg" alt="Logo de HDI" />
+                            </div>
+                            <div class="align-items-end mr-3">
+                                <button class="btn btn-light btnToggle">
+                                    <a class="navbar-toggler-icon"><i class="fas fa-bars"
+                                            style="color:#6C6F70; font-size:28px;"></i></a>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="wrapper d-none d-lg-block col-2 p-0 border-right sidebar">
+                            <div class="flex-column flex-wrap" id="navbarSupportedContent">
+                                <ul class="nav flex-wrap flex-column pt-1 pr-0 mr-0">
+                                    <li class="nav-item py-4 pl-xl-5">
+                                        <a class="nav-link title2 text-dark bg-succeed pl-3"
+                                            href="#"><strong>Inicio</strong></a>
+                                    </li>
+                                    <li class="nav-item pr-0 mr-0">
+                                        <a class="btnLogin text-light title pr-2 pr-lg-5" href="#"><span
+                                                class=" pl-xl-5">Denunciar
+                                                siniestro</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class=" nav flex-column pt-3 pl-xl-5 pr-0 mr-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-muted" href="#">Mis Seguros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-muted" href="#">Mis pagos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-muted" href="#">Historial de siniestro</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-muted" href="#">Facturas electrónicas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-muted" href="#">Cheques disponibles</a>
+                                    </li>
+                                    <li class="nav-item  border-bottom pb-4">
+                                        <a class="nav-link text-muted" href="#">Recepcionar vehículo</a>
+                                    </li>
+                                    <li class="nav-item py-3"></li>
+                                    <a class="nav-link text-muted" href="#">Mi Perfil</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <section class="row spacing">
+                            <div class="panel-group col-md-12 accordion" id="accordion" role="tablist"
+                                aria-multiselectable="true">
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion1" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Qué es un seguro?<i class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion1" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p><span>Es un contrato por el cual la HDI Seguros&nbsp;brinda protección
+                                                    frente a un daño inevitable e imprevisto, tratando de reparar, en
+                                                    parte o en su totalidad las consecuencias materiales. El seguro no
+                                                    evita el riesgo, sino que resarce al Asegurado en la medida de lo
+                                                    convenido y de los daños que el siniestro provoca.</span></p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion2" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Por qué conviene estar asegurado?<i class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion2" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p><span>Porque siempre es posible que ocurran eventos imprevistos y, lo que
+                                                    es peor, accidentes inesperados. Al contar con un seguro de HDI
+                                                    Seguros, usted está reduciendo al mínimo el riesgo de no tener cómo
+                                                    pagar los daños propios o causados a terceros, ya que no tendrá que
+                                                    pagar de su propio bolsillo sino que la compañía cubre sus pérdidas.
+                                                    De este modo, sus bienes más preciados estarán protegidos.</span>
+                                            </p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion3" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Cómo entender una póliza?<i class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion3" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p>La póliza es el contrato del seguro, que contiene los derechos y
+                                                obligaciones de cada una de las partes.</p>
+                                            <p>Las condiciones particulares singularizan el contrato en particular,
+                                                relativas a materias tales como individualización de las partes, bienes
+                                                o materia objeto del seguro, monto asegurado, prima convenida,
+                                                deducibles, etc.</p>
+                                            <p class="subtitulos_tabs"><strong>Cómo analizar su Póliza</strong></p>
+                                            <p>&nbsp;</p>
+                                            <ul class="list1">
+                                                <li>Identifique la cobertura, esto es, los riesgos que cubre su seguro.
+                                                </li>
+                                                <li>Identifique las causales de exclusión, es decir, aquellas
+                                                    situaciones no amparadas en la póliza.</li>
+                                                <li>Verifique si su póliza está afecta a deducibles, carencias,
+                                                    requisitos de asegurabilidad o condiciones especiales de cobertura.
+                                                </li>
+                                                <li>Verifique las obligaciones y cargas que debe cumplir durante la
+                                                    vigencia del seguro y al momento de ocurrir un siniestro.</li>
+                                                <li>Si el seguro se canaliza a través de un banco, casa comercial,
+                                                    empresa de servicios u otra entidad en forma colectiva, fíjese en la
+                                                    información contenida en el documento Certificado de Cobertura que
+                                                    le debe ser entregado al momento de contratar.</li>
+                                                <li>Antes de firmar o aceptar el seguro, preguntar y solicitar a nuestro
+                                                    agente de ventas o al corredor que intermedia su seguro la
+                                                    aclaración del significado y alcance de aquellas condiciones que
+                                                    merezcan dudas o que se estimen poco claras.</li>
+                                                <li>Cerciórese que el objeto asegurado cumpla con las exigencias y
+                                                    condiciones previstas por la póliza para gozar de la protección
+                                                    contratada.</li>
+                                                <li>Tenga presente que las pólizas de seguros contemplan regularmente
+                                                    situaciones en las que el seguro no va a operar, por lo que deberá
+                                                    informarse detenidamente de cuáles son estos casos según la póliza.
+                                                </li>
+                                            </ul>
+                                            <p>&nbsp;</p>
+                                            <p>Gentileza de la Comisión para el Mercado Financiero (texto adaptado).</p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion4" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Qué es el deducible en una póliza? <i class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion4" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p>Es la cantidad o porcentaje establecido en la póliza de seguro que paga
+                                                el asegurado, por lo que el asegurador siempre indemnizará en exceso de
+                                                la cifra o porcentaje acordado.</p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion5" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Qué es un siniestro?<i class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion5" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p>Es el daño cubierto por la póliza ocurrido al bien asegurado tanto para
+                                                el edificio como para el contenido. <br><br>Denuncia de Siniestro
+                                                Vehículo: 600 600 60 10 habilitado las 24 horas del día y los 365 días
+                                                del año. También tenemos habilitado el correo electrónico <a
+                                                    href="mailto:denuncia.siniestros@hdi.cl">denuncia.siniestros@hdi.cl</a>,
+                                                para recibir su denuncia.</p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion6" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Qué puedo esperar de HDI Seguros cuando tenga un siniestro?<i
+                                                    class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion6" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p>Todos nuestros clientes son importantes para nuestra compañía. Por eso,
+                                                si usted llega a tener un siniestro haremos todo lo posible para
+                                                resolver su problema lo antes posible. Para ello nosotros:</p>
+                                            <ul class="list1">
+                                                <li>Mejoramos continuamente nuestros procesos para dar el mejor servicio
+                                                    a nuestros clientes, en forma eficiente y efectiva.</li>
+                                                <li>Contamos con un equipo humano de profesionales, técnicos y
+                                                    administrativos, que poseen un alto nivel de competencia y una clara
+                                                    y decidida vocación de servicio.</li>
+                                                <li>Exigimos el cumplimiento de los acuerdos de servicio, contratos y
+                                                    tarifas por parte de nuestros proveedores, y los evaluamos en forma
+                                                    constante.</li>
+                                            </ul>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion7" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Qué hacer en caso de accidente de tránsito?<i
+                                                    class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion7" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p><strong>¿Qué hacer en caso de accidentes?</strong></p>
+                                            <ol>
+                                                <li>Tome los datos de todos los involucrados</li>
+                                                <li>En caso de robo avise inmediatamente a la Compañía</li>
+                                                <li>Denuncie el siniestro de HDI Seguros al teléfono<strong>:&nbsp;<a
+                                                            href="tel:6006006010">600 600 6010</a></strong> Celulares
+                                                    <strong><a
+                                                            href="tel:+56222127840">+56222127840</a>&nbsp;</strong>Whatsapp
+                                                    <strong><u>+56 9 7138 8805</u></strong></li>
+                                            </ol>
+                                            <p>&nbsp;</p>
+                                            <p>&nbsp;</p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion8" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Qué tengo que hacer en caso robo de accesorios?<i
+                                                    class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion8" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <ul class="list1">
+                                                <li>Mantenga la calma, recuerde que usted está asegurado y que cuenta
+                                                    con nuestro apoyo.</li>
+                                                <li>Si le roban un accesorio, diríjase a una comisaría para dejar la
+                                                    constancia del robo en Carabineros.</li>
+                                                <li>Dentro de un plazo máximo de diez días de ocurrido el robo,
+                                                    contáctese con HDI Seguros, para declarar el hecho.</li>
+                                                <li>Puede hacer su denuncia en línea aquí, por teléfono o fax, llamando
+                                                    a nuestro Centro de Atención al Cliente 715 48 48, o personalmente
+                                                    en una de nuestras <a href="/sucursales/"
+                                                        class="link">sucursales.</a></li>
+                                            </ul>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion9" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Conviene incluir un deducible en mi póliza?<i
+                                                    class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion9" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p>El deducible es el monto que debe pagar el Asegurado para la reparación
+                                                de un siniestro. El resto del costo de las reparaciones es asumido por
+                                                HDI Seguros.</p>
+                                            <p>El monto del deducible a pagar debe ser estipulado en su póliza al
+                                                momento de contratar el Seguro y generalmente varían desde 0UF hasta
+                                                10UF.</p>
+                                            <p>Incorporar un deducible tiene la ventaja de reducir su prima mensual pero
+                                                la desventaja de que a la hora de un siniestro usted deberá pagar de su
+                                                propio bolsillo el monto del deducible. Si tiene dudas sobre la decisión
+                                                de incluir o no un deducible, por favor consulte a una ejecutiva de
+                                                ventas al 2715 48 48.</p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion10" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Qué hago si ocurre un siniestro en mi hogar?<i
+                                                    class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion10" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p>Llámenos lo antes posible a nuestro Centro de Atención al Cliente 715 48
+                                                48 o diríjase personalmente a una de nuestras <a href="/sucursales/"
+                                                    class="link">sucursales.<br></a>Dependiendo de la situación,
+                                                nuestras ejecutivas le avisarán si es indispensable que Usted informe a
+                                                Carabineros, ya sea dejando una Constancia o una Denuncia de Siniestro.
+                                            </p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion11" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Cómo pago mi póliza si no he recibido el aviso de pago este mes?<i
+                                                    class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion11" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <ul class="list1">
+                                                <li>Puede pagar en línea, en nuestra página web.</li>
+                                                <li>Puede pagar en cualquier <a href="/sucursales/"
+                                                        class="link">sucursal </a>indicando el RUT o número de póliza
+                                                    del asegurado. Averigüe su número de póliza <a
+                                                        href="/zona-clientes/" class="link">aquí</a></li>
+                                            </ul>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion12" aria-expanded="true" aria-controls="acordion1">
+                                                Cambié de cuenta corriente ¿Qué tengo que hacer para que me descuenten
+                                                de mi nueva cuenta?<i class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion12" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p><span>Debe acercarse a cualquiera de nuestras </span><a
+                                                    href="/sucursales/" class="link">sucursales</a><span> a firmar un
+                                                    nuevo PAC en original.</span></p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion13" aria-expanded="true" aria-controls="acordion1">
+                                                Mi póliza fue anulada por no pago ¿Qué tengo que hacer para retomarla?<i
+                                                    class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion13" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p><span>Tiene que acercarse a inspeccionar su vehículo a la sucursal más
+                                                    cercana y pagar las cuotas pendientes.</span></p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion14" aria-expanded="true" aria-controls="acordion1">
+                                                Vendí mi auto ¿Cómo puedo dar término al seguro?<i
+                                                    class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion14" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p><span>Debe presentar una carta de solicitud de término de contrato
+                                                    adjuntando compraventa del vehículo en cualquiera de nuestras
+                                                </span><a href="/sucursales/" class="link">sucursales.</a></p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion15" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Dónde puedo cotizar seguro para mi auto?<i
+                                                    class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion15" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p><span>Contáctese a nuestro Departamento de Servicio al Cliente, teléfono
+                                                    715 48 48 y una de nuestras ejecutivas le entregarán el plan que
+                                                    necesita.</span></p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion16" aria-expanded="true" aria-controls="acordion1">
+                                                Necesito cambiar mi forma de pago del seguro ¿qué tengo que hacer?<i
+                                                    class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion16" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p><span>Debe acercarse a cualquiera de nuestras </span><a
+                                                    href="/sucursales/" class="link">sucursales </a><span>para modificar
+                                                    su plan de pago.</span></p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion17" aria-expanded="true" aria-controls="acordion1">
+                                                Cambié mi dirección ¿Qué tengo que hacer para notificar a la compañía?<i
+                                                    class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion17" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <ul class="list1">
+                                                <li>Puede realizar la <a href="/zona-clientes/"
+                                                        class="link">modificación de sus antecedentes en línea</a>, en
+                                                    la página web (recibirá un llamado para confirmar la actualización
+                                                    de su dirección).</li>
+                                                <li>Acérquese a una de nuestras <a href="/sucursales/"
+                                                        class="link">sucursales</a> para hacer la modificación</li>
+                                                <li>Envíenos una carta con su nueva dirección, incluyendo nombre y rut,
+                                                    o envíe un fax al 2715 44 12</li>
+                                            </ul>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion18" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Para asegurar un auto nuevo es necesario inspeccionarlo?<i
+                                                    class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion18" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p><span>Usted deberá inspeccionar su vehículo 0 Km. sólo si la factura ya
+                                                    tiene más de 24 hrs. desde su fecha de emisión. Se consideran autos
+                                                    nuevos todos aquellos comprados 0 Km. y facturados como tal.</span>
+                                            </p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion19" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Qué debo hacer para incorporar a mi póliza la nueva radio u otro equipo
+                                                que instalé en mi auto?<i class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion19" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p><span>Usted debe concurrir a cualquier sucursal de la Compañía que cuente
+                                                    con un inspector para que constate las modificaciones y luego debe
+                                                    informar a la compañía o a su Corredor para que realice el endoso o
+                                                    cambio en la póliza.</span></p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion20" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Qué es la renovación automática?<i class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion20" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p><span>Renovación automática es una condición especial asociada a la
+                                                    póliza de seguros a través de una cláusula, que indica que el
+                                                    contrato vigente se renovará por períodos iguales y sucesivos a
+                                                    menos que el asegurado informe por escrito su interés de poner
+                                                    término a esa condición particular de su contrato con al menos 15
+                                                    días de anticipación a la fecha de término de la vigencia. En cada
+                                                    renovación la compañía podrá ajustar el monto de la prima y/o el
+                                                    deducible en relación a la siniestralidad que haya presentado el
+                                                    bien asegurado durante la vigencia.</span></p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion21" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Baja la prima del seguro de vehículo debido a la depreciación del
+                                                bien?<i class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion21" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p><span>No necesariamente, pues los precios de los seguros están
+                                                    relacionados con diversos factores que en su conjunto determinan el
+                                                    precio del seguro. Los factores que influyen en la prima son la
+                                                    siniestralidad, el costo de repuestos, el costo de la mano de obra
+                                                    para la reparación, etc. Se debe tener en cuenta que al momento de
+                                                    reparar un vehículo, aunque este sea antiguo, los repuestos que se
+                                                    utilizan son nuevos y la mano de obra necesaria para la reparación
+                                                    debe ser igualmente calificada para reparar un auto de 10 años de
+                                                    antigüedad que para reparar un vehículo nuevo.</span></p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion22" aria-expanded="true" aria-controls="acordion1">
+                                                ¿En qué consiste el seguro obligatorio? (SOAP)<i
+                                                    class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion22" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p><span>El S.O.A.P. es el Seguro Obligatorio de Accidentes Personales,
+                                                    regido por la Ley Ns 18.490, que deben tomar todos los vehículos que
+                                                    requieran permiso de circulación. Para mayor información sobre
+                                                    coberturas, indemnizaciones y beneficiarios por favor consulte la
+                                                    sección seguros SOAP.</span></p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion23" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Cómo cobrar el SOAP?<i class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion23" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <ul class="list1">
+                                                <li>Presentar solicitud en las oficinas de HDI Seguros.</li>
+                                                <li>Presentar Parte o Certificado original extendido por el Tribunal
+                                                    competente o Ministerio Público.</li>
+                                                <li><strong>En caso de muerte:</strong> Certificado de defunción y
+                                                    nacimiento del fallecido y libreta de familia o documentación según
+                                                    el estado civil del fallecido.</li>
+                                                <li><strong>En caso de incapacidad: </strong>Certificado médico que
+                                                    acredite la incapacidad (naturaleza y grado).</li>
+                                                <li><strong>En caso de lesiones: </strong>Originales de comprobantes de
+                                                    pago (boletas o facturas) de todos los gastos médicos ocasionados
+                                                    por el accidente, junto con las respectivas órdenes médicas,
+                                                    tratamientos y recetas de medicamentos.</li>
+                                                <li>Para mayor información sobre coberturas, indemnizaciones y
+                                                    beneficiarios por favor consulte al área de Siniestros SOAP a los
+                                                    teléfonos 27154870, 27154424, 27154826 o 27154878.</li>
+                                            </ul>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion24" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Cómo prevenir el robo de un vehículo?<i
+                                                    class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion24" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p>En la actualidad, el robo de vehículos, con o sin violencia, se presenta
+                                                como uno de los delitos con mayor alza en nuestro país.Según las
+                                                estadísticas de la Sección de Encargo y Búsqueda de Vehículos de
+                                                Carabineros, desde enero a septiembre del 2012 se han robado 26.011
+                                                vehículos a nivel nacional, promediando 96 vehículos robados
+                                                diariamente. Un 80% de los robos ocurre en la región Metropolitana.</p>
+                                            <p>&nbsp;</p>
+                                            <p>Frente a esta situación le presentamos unas sencillas recomendaciones,
+                                                que le ayudarán a prevenir el robo de su vehículo:</p>
+                                            <p class="subtitulos_tabs"><strong>Consejos para prevenir el robo de su
+                                                    vehículo</strong></p>
+                                            <p>&nbsp;</p>
+                                            <ul class="list1">
+                                                <li>Cada vez que se baje de su vehículo, apáguelo y lleve las llaves con
+                                                    usted. No deje el motor encendido o las llaves en el interior del
+                                                    vehículo cuando se baja a abrir el portón de su casa o paga en la
+                                                    bomba de bencina. Tampoco entregue las llaves a extraños.</li>
+                                                <li>Estacione en áreas iluminadas y que no sean solitarias</li>
+                                                <li>Utilice el freno de emergencia e intente dejar las ruedas del
+                                                    vehículo curvadas cuando se estacione. De esta manera dificultará
+                                                    que el delincuente lo empuje.</li>
+                                                <li>Opte siempre por dejar su vehículo en estacionamientos privados o
+                                                    pagados. Es un lugar menos vulnerable que la vía pública.</li>
+                                                <li>Grabe elementos del vehículo con algún identificativo, como la
+                                                    patente.</li>
+                                                <li>Instale algún dispositivo de seguridad en su vehículo:
+                                                    traba-manubrio, láminas de protección de vidrios, alarma, inhibidor
+                                                    de partida u otro como GPS, para monitoreo y localización del
+                                                    vehículo.</li>
+                                                <li>Conduzca siempre con los seguros de las puertas activados y no abra
+                                                    el vidrio cuando se le acerquen personas, mientras se encuentra
+                                                    detenido en un cruce o semáforo. Al bajarse siempre compruebe que
+                                                    las ventanas y puertas de su auto estén cerradas</li>
+                                            </ul>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+
+                                    <div class="panel-heading" role="tab" id="head1">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                                href="#accordion25" aria-expanded="true" aria-controls="acordion1">
+                                                ¿Qué hacer en caso de emergencias automotrices?<i
+                                                    class="icon-plus pull-right"></i>
+                                            </a>
+                                        </h4>
+                                    </div>
+
+                                    <div class="panel-collapse collapse" id="accordion25" role="tabpanel"
+                                        aria-labelledby="head2">
+                                        <div class="panel-body">
+                                            <p></p>
+                                            <p><strong>1) En caso de un siniestro de daños al vehículo o
+                                                    terceros:<br><br></strong>Solo en el caso de que existan lesionados,
+                                                deberá dejar <strong>c</strong><strong>onstancia
+                                                    inmediata&nbsp;</strong>del accidente en la unidad policial más
+                                                cercana y tomar las medidas necesarias para el debido resguardo de su
+                                                vehículo y sus accesorios. En caso contrario, solo debe denunciar el
+                                                siniestro a la Compañía.</p>
+                                            <p>No deje pasar pequeños accidentes, porque tal vez existen ciertos daños
+                                                internos y graves, que no estén a la vista.</p>
+                                            <p><strong><br>Denuncia de Siniestro Vehículo:</strong> <br><strong>600 600
+                                                    60 10</strong> habilitado las 24 horas del día y los 365 días del
+                                                año. También tenemos habilitado el correo electrónico
+                                                <strong>denuncia.siniestros@hdi.cl</strong>, para recibir su denuncia
+                                            </p>
+                                            <p><strong>Si hay otro vehículo involucrado en el accidente:</strong></p>
+                                            <ul>
+                                                <li>No olvide de anotar la patente, el modelo, año y color del vehículo,
+                                                    nombre, RUT, dirección, teléfono y, si fuera el caso, compañía con
+                                                    la que está asegurado del conductor.</li>
+                                                <li>Tome nota de las circunstancias del accidente, sentido del tránsito,
+                                                    nombre de las calles y señalizaciones correspondientes.</li>
+                                                <li>No se comprometa a priori al pago de cualquier cantidad ni tampoco a
+                                                    un arreglo.</li>
+                                            </ul>
+                                            <p>Recuerde que debe hacer la <strong>d</strong><strong>enuncia del
+                                                    siniestro</strong> a la Compañía tan pronto sea posible, dentro de
+                                                10 días. La denuncia la puede hacer en el teléfono gratuito habilitado
+                                                especialmente para la denuncia de siniestros de vehículos 600 600 60 10
+                                                ó al mail denuncia.siniestros@hdi.cl</p>
+                                            <p><strong>2) En caso de robo o hurto del vehículo:</strong></p>
+                                            <p>Deberá dejar constancia inmediata del hecho en la unidad policial más
+                                                cercana y denunciar tan pronto sea posible, inmediatamente, a la
+                                                Compañía el hecho sucedido al teléfono 600 600 60 10 o al mail
+                                                denuncia.siniestros@hdi.cl habilitado las 24 horas del día y los 365
+                                                días del año.</p>
+                                            <p><strong>3) En caso de quedar inmovilizado su vehículo, como consecuencia
+                                                    de un accidente:</strong></p>
+                                            <p>Llame al servicio <strong>Asistencia Vehículo</strong>, que está
+                                                disponible las 24 horas del día, para que sea remolcado. Desde teléfono
+                                                fijo llame al 600 600 60 10 y desde celulares marque (56) 02 2212 78 40.
+                                            </p>
+                                            <p></p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
