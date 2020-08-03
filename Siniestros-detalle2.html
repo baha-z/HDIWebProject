@@ -38,80 +38,75 @@
         </div>
     </header>
     <!-- END HEADER -->
+
     <!-- CONTAINER MAIN-->
-    <div class="container-fluid p-0 m-0">
+    <div class="col-12 px-0">
         <div class="row p-0">
-            <div class="col-12 px-0">
-                <div class="container-fluid">
-                    <div class="row p-0">
-                        <!-- LEFT MENU -->
-                        <div class="col-12 pr-0 d-flex justify-content-between d-lg-none">
-                            <div class="pl-0"><img class="" src="Img/logo.jpg" alt="Logo de HDI" />
-                            </div>
-                            <div class="align-items-end mr-3">
-                                <button class="btn btn-light btnToggle">
-                                    <a class="navbar-toggler-icon"><i class="fas fa-bars"
-                                            style="color:#6C6F70; font-size:28px;"></i></a>
-                                </button>
-                            </div>
+            <!-- LEFT MENU -->
+            <div class="col-12 pr-0 d-flex justify-content-between d-lg-none">
+                <div class="pl-0"><img class="" src="Img/logo.jpg" alt="Logo de HDI" />
+                </div>
+                <div class="align-items-end mr-3">
+                    <button class="btn btn-light btnToggle">
+                        <a class="navbar-toggler-icon"><i class="fas fa-bars"
+                                style="color:#6C6F70; font-size:28px;"></i></a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="wrapper d-none d-lg-block col-2 p-0 border-right sidebar">
+                <div class="flex-column flex-wrap" id="navbarSupportedContent">
+                    <ul class="nav flex-wrap flex-column pt-1 pr-0 mr-0">
+                        <li class="nav-item py-3 pl-xl-5">
+                            <a class="nav-link title2 text-dark bg-succeed pl-3" href="#"><strong>Inicio</strong></a>
+                        </li>
+                        <li class="nav-item pr-0 mr-0">
+                            <a class="btnLogin text-light title pr-2 pr-lg-5" href="#">
+                                <span>Denunciar siniestro</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class=" nav flex-column pt-3 pl-xl-3 pr-0 mr-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" href="#">Mis Seguros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" href="#">Mis pagos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" href="#">Historial de siniestro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" href="#">Facturas electrónicas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" href="#">Cheques disponibles</a>
+                        </li>
+                        <li class="nav-item border-bottom pb-4">
+                            <a class="nav-link text-muted" href="#">Recepcionar vehículo</a>
+                        </li>
+                        <li class="nav-item py-3"></li>
+                        <a class="nav-link text-muted" href="#">Mi Perfil</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- END LEFT MENU -->
+
+            <div class="col-12 col-lg-10 pb-5">
+                <div class="row">
+                    <div class="d-none d-lg-flex flex-row card-tex justify-content-between pl-3 pt-5">
+                        <div>
+                            <h4>Siniestros</h4>
                         </div>
-
-                        <div class="col-2 wrapper d-none d-lg-block  p-0 border-right sidebar">
-                            <div class="flex-column flex-wrap" id="navbarSupportedContent">
-                                <ul class="nav flex-wrap flex-column pt-1 pr-0 mr-0">
-                                    <li class="nav-item py-4 pl-xl-5">
-                                        <a class="nav-link title2 text-dark bg-succeed pl-3"
-                                            href="#"><strong>Inicio</strong></a>
-                                    </li>
-                                    <li class="nav-item pr-0 mr-0">
-                                        <a class="btnLogin text-light title pr-2 pr-lg-5" href="#"><span
-                                                class=" pl-xl-5">Denunciar
-                                                siniestro</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <ul class=" nav flex-column pt-3 pl-xl-5 pr-0 mr-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Mis Seguros</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Mis pagos</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Historial de siniestro</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Facturas electrónicas</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Cheques disponibles</a>
-                                    </li>
-                                    <li class="nav-item  border-bottom pb-4">
-                                        <a class="nav-link text-muted" href="#">Recepcionar vehículo</a>
-                                    </li>
-                                    <li class="nav-item py-3"></li>
-                                    <a class="nav-link text-muted" href="#">Mi Perfil</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!-- END LEFT MENU -->
-
-                        <div class="col-12 px-4 col-lg-10 p-0 px-lg-5 order-2">
-
-                            <!-- CONTENT -->
-                            <section class="container-fluid px-0">
-                                <div class="row py-5 m-1  m-lg-5 px-lg-5 border border-success">
-                                    <!-- <div class="py-3 d-lg-flex flex-wrap card-text pl-lg-5 pt-lg-5"> -->
-                                    <div>
-                                        <p class="title">Siniestros</p>
-                                    </div>
-                                </div>
-                                <div class="col-12 border-bottom pb-4 col-lg-4 px-0 border-right">
-                                    <div class="container">
+                    </div>
+                    <section class="col-12 py-4 h-100">
+                        <div class="card container border-secondary">
+                            <div class=" justify-content-center">
+                                <div class="pt-1 row">
+                                    <div class="col-12 col-lg-4 border-table-bot">
                                         <div class="row">
-                                            <div class="col-3 col-lg-2 d-flex flex-wrap text-green text-right mediumf">
+                                            <div class="col-4 d-flex flex-wrap text-green text-right mediumf">
                                                 <div class="prueba py-2">
                                                     <p>Evento</p>
                                                 </div>
@@ -124,32 +119,28 @@
                                                 <div class="prueba py-2">
                                                     <p>Fono</p>
                                                 </div>
-
                                             </div>
-                                            <div class="col-9 col-lg-10 d-flex flex-column px-0 text-muted">
+                                            <div class=" border-right col-8 d-flex flex-column px-0 text-muted">
                                                 <div class="py-2">
-                                                    <p>Apellido Apellido, Nombre Nombre</p>
+                                                    <p class="table-text">Apellido Apellido, Nombre Nombre</p>
                                                 </div>
                                                 <div class="py-2">
-                                                    <p>11.111.111-1</p>
+                                                    <p class="table-text">11.111.111-1</p>
                                                 </div>
                                                 <div class="py-2">
-                                                    <p>mail@mail.com</p>
+                                                    <p class="table-text">mail@mail.com</p>
                                                 </div>
                                                 <div class="py-2">
-                                                    <p>+569 444 44 44 - +562 444 44 44</p>
+                                                    <p class="table-text">+569 444 44 44 - +562 444 44 44</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-
-                                <div class="col-12 pt-4 pl-3  border-bottom col-lg-5 pt-lg-0 pl-lg-5 border-right">
-                                    <div class="container">
+                                    <div class="col-12 col-lg-4 border-table-bot ">
                                         <div class="row">
                                             <div
-                                                class="col-4 pr-3 col-lg-2 d-flex px-0 flex-wrap text-right text-green mediumf">
+                                                class="col-4 pr-3 d-flex px-0 flex-wrap text-right text-green mediumf">
                                                 <div class="prueba py-3">
                                                     <p>Producto</p>
                                                 </div>
@@ -160,26 +151,24 @@
                                                     <p>Patente</p>
                                                 </div>
                                             </div>
-                                            <div class="col-8 col-lg-10 d-flex flex-column text-muted px-0 ">
+                                            <div class="border-right col-8 d-flex flex-column text-muted px-0 ">
                                                 <div class="py-3">
-                                                    <p>CORREDORES DAÑOS MATERIALES</p>
+                                                    <p class="table-text">CORREDORES DAÑOS MATERIALES</p>
                                                 </div>
                                                 <div class="py-3">
-                                                    <p>74-1111-152356-0 <img class="pl-3"
+                                                    <p class="table-text">74-1111-152356-0 <img class="pl-3"
                                                             src="Icons/Icon ionic-ios-document.svg" alt=""></p>
                                                 </div>
                                                 <div class="py-3">
-                                                    <p>JVDP23</p>
+                                                    <p class="table-text">JVDP23</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="col-12 pt-4 pl-0 col-lg-3 px-lg-0">
-                                    <div class="container">
-                                        <div class="row ">
-                                            <div class="col-5 d-flex flex-wrap text-green mediumf text-right">
+                                    <div class="col-12 col-lg-4">
+                                        <div class="row mt-2">
+                                            <div class="col-4 d-flex flex-wrap text-green mediumf text-right">
                                                 <div class="prueba">
                                                     <p>Patente</p>
                                                 </div>
@@ -199,84 +188,80 @@
                                                     <p>Uso</p>
                                                 </div>
                                             </div>
-                                            <div class="col-7 d-flex flex-wrap text-secondary pb-3">
+                                            <div class="col-8 d-flex flex-wrap text-secondary pb-3">
                                                 <div class="prueba">
-                                                    <p>JVDP23</p>
+                                                    <p class="table-text">JVDP23</p>
                                                 </div>
                                                 <div class="prueba">
-                                                    <p>Automóvil</p>
+                                                    <p class="table-text">Automóvil</p>
                                                 </div>
                                                 <div class="prueba">
-                                                    <p>RENAULT CLIO</p>
+                                                    <p class="table-text">RENAULT CLIO</p>
                                                 </div>
                                                 <div class="prueba">
-                                                    <p>2017</p>
+                                                    <p class="table-text">2017</p>
                                                 </div>
                                                 <div class="prueba">
-                                                    <p>Red</p>
+                                                    <p class="table-text">Red</p>
                                                 </div>
                                                 <div class="prueba">
-                                                    <p>Particular</p>
+                                                    <p class="table-text">Particular</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                         </div>
-                        </section>
-
-                        <!-- CONTENT -->
-
-                        <section class="container-fluid px-0">
-                            <div class="d-flex px-4 flex-wrap card-tex justify-content-between pl-lg-3 pt-lg-5">
-                                <div class="d-none d-lg-flex">
-                                    <h4>Búsqueda referente a la patente: <strong>JVDP23.</strong> Total de registros
-                                        encontrados:
-                                        4 </h4>
-                                </div>
-                                <div class="mediumf d-lg-none">
-                                    <p class="pb-2">Búsqueda referente a la patente: JVDP23. </p>
-                                    <p>Total de registros encontrados:
-                                        4 </p>
-                                </div>
-                            </div>
-                            <div class="row border border-secondary justify-content-center m-5">
-                                <div class="col-12 col-md-12 pt-1">
-                                    <table>
-                                        <thead>
-                                            <tr class="table100-head text-green">
-                                                <th class="column1">Evento
-                                                </th>
-                                                <th class="column2">Nombre</th>
-                                                <th class="column3">Tipo</th>
-                                                <th class="column4">Fecha de Evento</th>
-                                                <th class="column5">Fecha Realizada</th>
-                                                <th class="column6">Observacion</th>
-                                                <th class="column7"></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="column1">Emisión de Póliza</td>
-                                                <td class="column2">HDI SEGUROS S.A.</td>
-                                                <td class="column3"></td>
-                                                <td class="column4">10/20/2020, 14:22</td>
-                                                <td class="column5"></td>
-                                                <td class="column6"></td>
-                                                <td class="column7"></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                    </div>
+                    </section>
                 </div>
+
+                <!-- CONTENT -->
+
+                <div class="row">
+                    <div class="d-none d-lg-flex flex-wrap card-tex justify-content-between pl-3 pt-5">
+                        <div>
+                            <h4>Búsqueda referente a la patente: <strong>JVDP23.</strong> Total de registros
+                                encontrados:
+                                4 </h4>
+                        </div>
+                    </div>
+
+                    <section class="col-12 py-4 h-100">
+                        <div class="row border border-secondary justify-content-center m-2">
+                            <div class="col-12 col-md-12 pt-1">
+                                <table>
+                                    <thead>
+                                        <tr class="table100-head text-green">
+                                            <th class="column1">Evento
+                                            </th>
+                                            <th class="column2">Nombre</th>
+                                            <th class="column3">Tipo</th>
+                                            <th class="column4">Fecha de Evento</th>
+                                            <th class="column5">Fecha Realizada</th>
+                                            <th class="column6">Observacion</th>
+                                            <th class="column7"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="column1">Emisión de Póliza</td>
+                                            <td class="column2">HDI SEGUROS S.A.</td>
+                                            <td class="column3"></td>
+                                            <td class="column4">10/20/2020, 14:22</td>
+                                            <td class="column5"></td>
+                                            <td class="column6"></td>
+                                            <td class="column7"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
             </div>
+
         </div>
     </div>
-    </section>
-
-
-    </div>
-    </div>
-    </div>
+</body>

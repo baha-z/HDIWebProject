@@ -4,6 +4,27 @@ body {
     width: 100%;
 }
 
+.table-text {
+  font-size: 15px !important;
+}
+
+.table-inverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.input-clave {
+  width: 80% !important;
+}
+
+.border-secondary {
+  color: #006729 !important; 
+}
+
+.border-table-bot {
+  border-style: none;
+}
+
 /* building tool */
 .guide {
     border: 1px  solid red;
@@ -40,9 +61,14 @@ body {
     width: 100%;
 }
 
+.input-form { 
+  width: 100%;
+}
+
 input { 
     border: none;
     border-bottom: 2px solid #EFEFEF;
+    width: 100%;
 }
 
 #ramo, #poliza, #cert {
@@ -76,7 +102,6 @@ font-size:  14px;
   color: white;
   background-color: #006729;
   font-size: 16px;
-  aspect-ratio: 0;
 }
 
 btn-hdi2 {
@@ -108,6 +133,7 @@ span {
     padding-right: 25px;
     }
 
+
 .btn-1 {
     background-color: #79B530;
     font-size: 20px;
@@ -119,7 +145,7 @@ span {
 }
 
 .up-box {
-    height: 350px;
+  height: 300px;
 }
 
 .smallf {
@@ -324,24 +350,25 @@ span {
 
 .imgHeader {
     width: 100%;
-    height: auto;
+    height: 100%;
 }  
 
 
 .btnLogin {
   color: #fff;
-  padding: 25px 0;
+  padding: 20px 0;
   background: #006729;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   position: relative;
   text-align: center;
   width: 100%;
-  margin: 10px 0;
+  margin-bottom: 10px;
   display: block;
   text-decoration: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  font-size:13px !important;
 }
 
 .btnLogin::after {
@@ -353,7 +380,7 @@ span {
   width: 45px;
   height: 100%;
   position: absolute;
-  padding: 25px 0;
+  padding: 17px 0;
   top: 0px;
   right: 0px;
   font-size: 16px;
@@ -388,7 +415,6 @@ span {
   position: absolute;
   padding: 8px 0;
   top: 0px;
-  right: -10px;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
@@ -436,13 +462,27 @@ span {
 }
 
 @media screen and (max-width: 576px) {
+  .border-right {
+    border-style: none !important;
+  }
+  .border-table-bot {
+    border: #707070 1px solid !important;
+  }
   .down-box .up-box { 
     height: 100%;
   }
+  .up-box {
+    height: initial;
+  }
+  
+}
+
+.nav {
+  font-size: 15px;
 }
 
 .prueba {
-  width: 250px;
+  width: 350px;
 }
 
 .prueba2 {
